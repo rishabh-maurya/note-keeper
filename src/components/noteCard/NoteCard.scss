@@ -1,0 +1,40 @@
+.note-card {
+    width: 300px;
+    padding: 20px 10px;
+    border-radius: 20px;
+    background-color: aquamarine;
+
+    h3 {
+        font-family: 'Nunito', sans-serif;
+        font-weight: 700;
+        color: #fff;
+        font-size: 1.5rem;
+    }
+
+    p {
+        padding-top: 5px;
+        font-family: 'Comfortaa', cursive;
+        font-weight: 700;
+        color: rgba(255, 255, 255, 0.769);
+    }
+
+    .icons-container {
+        margin-top: 10px;
+        text-align: right;
+        button {
+            padding: 3px 5px;
+            border-radius: 50%;
+            border: none;
+            outline: none;
+            color: #fff;
+            margin-right: 2px;
+            background-color: transparent;
+            cursor: pointer;
+            
+            svg {
+                height: 25px;
+                width: 25px;
+            }
+        }
+    }
+}

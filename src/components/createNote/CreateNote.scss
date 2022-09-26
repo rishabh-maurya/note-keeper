@@ -1,0 +1,73 @@
+.create-note-container {
+    width: 100%;
+    height: max-content;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #fff;
+
+    form {
+
+        input,
+        textarea {
+            width: 100%;
+            border: none;
+            border-bottom: 2px solid #a181ff;
+            outline: none;
+            font-family: 'Comfortaa', cursive;
+            font-size: 1rem;
+            font-weight: 700;
+            padding: 5px;
+            margin-bottom: 1rem;
+        }
+
+        textarea {
+            height: 100px;
+            resize: none;
+
+            &::-webkit-scrollbar {
+                display: none;
+            }
+        }
+
+        .color-selector {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: .5rem;
+            margin-bottom: 1rem;
+
+            button {
+                padding: 0;
+                border: none;
+                outline: none;
+                background-color: transparent;
+                cursor: pointer;
+
+                &:focus {
+                    svg {
+                        border-color: #a181ff;
+                    }
+                }
+
+                svg {
+                    height: 35px;
+                    width: 35px;
+                    border: 2px solid transparent;
+                    border-radius: 50%;
+                }
+            }
+        }
+
+        button {
+            padding: 15px;
+            background-color: #a181ff;
+            font-family: 'Comfortaa', cursive;
+            font-size: 1rem;
+            font-weight: 700;
+            color: #fff;
+            border: 2px solid #a181ff;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+    }
+}

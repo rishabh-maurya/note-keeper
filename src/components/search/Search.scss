@@ -1,0 +1,17 @@
+.search-container {
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 20px;
+
+    input {
+        width: 100%;
+        border: none;
+        border-bottom: 2px solid #7510f2;
+        outline: none;
+        padding: 10px 5px;
+        font-size: 1rem;
+        font-family: 'Comfortaa', cursive;
+        font-weight: 700;
+    }
+}
